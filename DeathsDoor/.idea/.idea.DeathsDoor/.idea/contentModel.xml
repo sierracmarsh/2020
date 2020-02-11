@@ -7,6 +7,13 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="CharacterMover.cs" t="Include" />
+        <e p="EnemyController.cs" t="Include" />
+        <e p="GameManager.cs" t="Include" />
+        <e p="HomeOwnerStart.cs" t="Include" />
+        <e p="HomeownerTrigger.cs" t="Include" />
+        <e p="NewBehaviourScript.cs" t="Include" />
+        <e p="PlayerManager.cs" t="Include" />
+        <e p="TriggerEventBehavior.cs" t="Include" />
       </e>
       <e p="DeathsDoor.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />

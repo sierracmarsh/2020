@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
 public class CharacterMover : MonoBehaviour
