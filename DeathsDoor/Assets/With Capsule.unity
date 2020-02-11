@@ -370,6 +370,7 @@ GameObject:
   - component: {fileID: 707401010}
   - component: {fileID: 707401009}
   - component: {fileID: 707401008}
+  - component: {fileID: 707401013}
   m_Layer: 0
   m_Name: Homeowner
   m_TagString: Homeowner
@@ -385,11 +386,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 707401007}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 989de1f14bd4767469444b8a47360c2b, type: 3}
+  m_Script: {fileID: 11500000, guid: 4fc902d3e249dcd48bdb09cd5a93c64d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Homeowner: {fileID: 0}
-  speed: 0
+  Enable:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  Trigger:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 707401007}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!65 &707401009
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -400,7 +420,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 10}
+  m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &707401010
 MeshRenderer:
@@ -451,12 +471,24 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 707401007}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 129.81, y: -6.54, z: 22.96}
+  m_LocalPosition: {x: 129.81, y: -5.77, z: 16.98}
   m_LocalScale: {x: 2.184711, y: 2.184711, z: 2.184711}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &707401013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 707401007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fab712e0e2fc2d949bca13680025730c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Homeowner: {fileID: 707401007}
 --- !u!1 &1222079183
 GameObject:
   m_ObjectHideFlags: 0
@@ -471,6 +503,7 @@ GameObject:
   - component: {fileID: 1222079185}
   - component: {fileID: 1222079184}
   - component: {fileID: 1222079190}
+  - component: {fileID: 1222079191}
   m_Layer: 0
   m_Name: Tim
   m_TagString: Player
@@ -591,6 +624,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1222079191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1222079183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 989de1f14bd4767469444b8a47360c2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Homeowner: {fileID: 0}
 --- !u!1 &1314445846
 GameObject:
   m_ObjectHideFlags: 0
@@ -982,6 +1027,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2140486215}
   - component: {fileID: 2140486216}
+  - component: {fileID: 2140486217}
   m_Layer: 0
   m_Name: HOTrigger
   m_TagString: Untagged
@@ -1009,8 +1055,20 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2140486214}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 5, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2140486217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2140486214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 989de1f14bd4767469444b8a47360c2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Homeowner: {fileID: 707401007}

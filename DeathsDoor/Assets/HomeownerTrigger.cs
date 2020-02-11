@@ -5,16 +5,12 @@ using UnityEngine;
 public class HomeownerTrigger : MonoBehaviour
 {
     public GameObject Homeowner;
-    public float speed;
 
 
-    void OnTriggerEnter(Collider col)
+
+    void OnTriggerEnter(Collider other)
     {
 
-        if (col.gameObject.tag == "Player")
-        {
-            Homeowner.transform.Translate(new Vector3(8, 0, 0) * Time.deltaTime);
-
-        }
+        Homeowner.SetActive(true);
     }
 }
