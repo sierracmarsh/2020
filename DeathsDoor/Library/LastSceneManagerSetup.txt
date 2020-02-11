@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/With Capsule.unity
+- path: Assets/Scene/With Capsule.unity
   isLoaded: 1
   isActive: 1
