@@ -4,24 +4,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MatchIDBehvaior : MonoBehaviour
+
 {
-	private NameID otherIDOBJ;
-
-	public List<NameID> NameIds;
-//storeveriablesbelow
-	private void OnTriggerEnter(Collider other)
+	[Serializable]
+	public struct  PossibleMatches
 	{
-		otherIDOBJ = other.GetComponent<IDBehavior>().nameIDObject;
+		public NameID nameIDObj;
+		public WorkSystem worksystemObj;
 	}
 
-	private void CheckID()
-	{
-		foreach (var obj in NameIds)
-		{
-			if (obj == otherIDOBJ)
-			{
-				//dowork - - willtellworktobedoneinanotherscript
-			}
-		}
-	}
+	public List<PossibleMatches> workIDList;
 }

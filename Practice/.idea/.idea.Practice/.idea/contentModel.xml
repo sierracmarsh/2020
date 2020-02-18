@@ -12,8 +12,27 @@
         <e p="CharacterTalk.cs" t="Include" />
         <e p="Debug.cs" t="Include" />
         <e p="Decision.cs" t="Include" />
+        <e p="EnemyChase.cs" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="AnimationBehavior.cs" t="Include" />
+          <e p="AnimationTrigger.cs" t="Include" />
+          <e p="BoolData.cs" t="Include" />
+          <e p="Debug.cs" t="Include" />
+          <e p="Decision.cs" t="Include" />
+          <e p="EnemyChase.cs" t="Include" />
+          <e p="IDBehavior.cs" t="Include" />
+          <e p="InstanciateOBJ.cs" t="Include" />
+          <e p="MatchIDBehvaior.cs" t="Include" />
+          <e p="Math.cs" t="Include" />
+          <e p="NameID.cs" t="Include" />
+          <e p="SpeachTrigger.cs" t="Include" />
+          <e p="Timer.cs" t="Include" />
+          <e p="TriggerEvent.cs" t="Include" />
+          <e p="Word.cs" t="Include" />
+          <e p="WordManager.cs" t="Include" />
+          <e p="WorkSystem.cs" t="Include" />
+        </e>
         <e p="SpeachTrigger.cs" t="Include" />
-        <e p="Timer.cs" t="Include" />
         <e p="TriggerEvent.cs" t="Include" />
         <e p="Word.cs" t="Include" />
         <e p="WordManager.cs" t="Include" />

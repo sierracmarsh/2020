@@ -17,6 +17,7 @@
       <Path>Library</Path>
       <Path>Scenes</Path>
       <Path>Temp</Path>
+      <Path>obj</Path>
     </explicitExcludes>
   </component>
 </project>

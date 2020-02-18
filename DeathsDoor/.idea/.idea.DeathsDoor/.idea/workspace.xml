@@ -12,10 +12,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PlayerManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CharacterMover.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EnemyController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Camera.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -25,6 +23,8 @@
         <option value="$PROJECT_DIR$/Assets/PlayerBahvior.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayerManager.cs" />
         <option value="$PROJECT_DIR$/Assets/EnemyController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Camera.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
       </list>
     </option>
   </component>
@@ -78,6 +78,8 @@
       <updated>1580846283762</updated>
       <workItem from="1580846286549" duration="65000" />
       <workItem from="1581443674909" duration="6024000" />
+      <workItem from="1582045169671" duration="1424000" />
+      <workItem from="1582061243984" duration="1360000" />
     </task>
     <servers />
   </component>

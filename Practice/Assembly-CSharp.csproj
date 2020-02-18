@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\Decision.cs" />
     <Compile Include="Assets\Scripts\EnemyChase.cs" />
     <Compile Include="Assets\Scripts\IDBehavior.cs" />
+    <Compile Include="Assets\Scripts\InstanciateOBJ.cs" />
     <Compile Include="Assets\Scripts\MatchIDBehvaior.cs" />
     <Compile Include="Assets\Scripts\Math.cs" />
     <Compile Include="Assets\Scripts\NameID.cs" />
@@ -81,9 +82,8 @@
     <Compile Include="Assets\Scripts\TriggerEvent.cs" />
     <Compile Include="Assets\Scripts\Word.cs" />
     <Compile Include="Assets\Scripts\WordManager.cs" />
-    <Compile Include="Assets\Scripts\WorkScript.cs" />
+    <Compile Include="Assets\Scripts\WorkSystem.cs" />
     <Compile Include="Assets\SpeachTrigger.cs" />
-    <Compile Include="Assets\Timer.cs" />
     <Compile Include="Assets\TriggerEvent.cs" />
     <Compile Include="Assets\Word.cs" />
     <Compile Include="Assets\WordManager.cs" />
