@@ -11,5 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e04f767f3f39b544e9dd48a36c82f963, type: 3}
   m_Name: 1Candy
   m_EditorClassIdentifier: 
-  DeltaValue: {fileID: 0}
+  DeltaValue: {fileID: 11400000, guid: 108ddd00376e6dc47b6b5c7b23293ff0, type: 2}
   targetObject: {fileID: 0}

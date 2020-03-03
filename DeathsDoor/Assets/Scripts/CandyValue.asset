@@ -11,5 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca26d00d468454045941a91be5c1d0ea, type: 3}
   m_Name: CandyValue
   m_EditorClassIdentifier: 
-  Value: 1
-  maxValue: 1
+  Value: 2
+  maxValue: 25

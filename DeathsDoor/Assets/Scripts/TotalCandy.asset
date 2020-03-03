@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Name: TotalCandy
   m_EditorClassIdentifier: 
   Value: 1
-  maxValue: 1
+  maxValue: 25

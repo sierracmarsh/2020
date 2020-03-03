@@ -11,5 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: Dialoug
   m_EditorClassIdentifier: Assembly-CSharp::StringListData
-  stringListObj: []
-  currentLineNumber: 0
+  stringListObj:
+  - Generic Dialoug
+  - Tutuorial Stuff
+  - Info
+  - Helpful Nonsense
+  - Please give me snacks
+  currentLineNumber: 2
