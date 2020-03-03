@@ -18,8 +18,11 @@ public class Camera : MonoBehaviour
 	{
 		transform.position = player.transform.position + offset;
 
-        if (Input.GetKeyDown(KeyCode.DownArrow)) 
-       { transform.RotateAround(transform.parent.position, Vector3.up, 180f); }
-      
-           
+		if (Input.GetKeyDown(KeyCode.DownArrow))
+		{
+			transform.RotateAround(transform.parent.position, Vector3.up, 180f);
+		}
+
+
+	}
 }

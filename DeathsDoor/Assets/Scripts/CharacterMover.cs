@@ -13,7 +13,7 @@ public class CharacterMover : MonoBehaviour
 	    
 		public float MoveSpeed = 10f;
 		public float Gravity = 4f;
-		private float RotationSpeed = 100f;
+	
 	
 	
 		void Start()
