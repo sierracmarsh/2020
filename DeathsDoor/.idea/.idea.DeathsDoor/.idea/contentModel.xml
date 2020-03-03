@@ -8,8 +8,10 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="Camera.cs" t="Include" />
+          <e p="CandyManager.cs" t="Include" />
           <e p="CharacterMover.cs" t="Include" />
           <e p="EnemyController.cs" t="Include" />
+          <e p="FloatData.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
           <e p="HomeOwnerStart.cs" t="Include" />
           <e p="HomeownerTrigger.cs" t="Include" />
@@ -19,6 +21,8 @@
           <e p="StingListData.cs" t="Include" />
           <e p="TextBehaviour.cs" t="Include" />
           <e p="TriggerEventBehavior.cs" t="Include" />
+          <e p="UpdateVlue.cs" t="Include" />
+          <e p="VanishCandy.cs" t="Include" />
         </e>
         <e p="Starfield Skybox" t="Include">
           <e p="Demo" t="Include">

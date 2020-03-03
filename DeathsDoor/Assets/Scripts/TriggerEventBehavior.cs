@@ -17,4 +17,18 @@ public class TriggerEventBehavior : MonoBehaviour {
     {
         Trigger.Invoke();
     }
+
+    public UnityEvent EnterEvent;
+    public UnityEvent ExitEvent;
+
+    private void OnTriggerEnter(Collider other)
+    {
+        EnterEvent.Invoke();
+        print("Candy");
+    }
+
+    private void OnTriggerExit(Collider other)
+    { 
+        ExitEvent.Invoke();
+    }
 }

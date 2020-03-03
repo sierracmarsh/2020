@@ -60,8 +60,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Camera.cs" />
+    <Compile Include="Assets\Scripts\CandyManager.cs" />
     <Compile Include="Assets\Scripts\CharacterMover.cs" />
     <Compile Include="Assets\Scripts\EnemyController.cs" />
+    <Compile Include="Assets\Scripts\FloatData.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\HomeOwnerStart.cs" />
     <Compile Include="Assets\Scripts\HomeownerTrigger.cs" />
@@ -71,6 +73,8 @@
     <Compile Include="Assets\Scripts\StingListData.cs" />
     <Compile Include="Assets\Scripts\TextBehaviour.cs" />
     <Compile Include="Assets\Scripts\TriggerEventBehavior.cs" />
+    <Compile Include="Assets\Scripts\UpdateVlue.cs" />
+    <Compile Include="Assets\Scripts\VanishCandy.cs" />
     <Compile Include="Assets\Starfield Skybox\Demo\Script\LookCamera.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/10617333/Desktop/Kraken/2020/DeathsDoor/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
