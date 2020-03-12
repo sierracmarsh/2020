@@ -15,8 +15,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UpdateVlue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/VanishCandy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
+<<<<<<< Updated upstream
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collection.cs" root0="FORCE_HIGHLIGHTING" />
+=======
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerManager.cs" root0="FORCE_HIGHLIGHTING" />
+>>>>>>> Stashed changes
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CandyManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -48,9 +52,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/VanishCandy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TextBehaviour.cs" />
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/Assets/Scripts/CList.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Collectable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Collection.cs" />
+=======
+>>>>>>> Stashed changes
       </list>
     </option>
   </component>
@@ -118,7 +125,10 @@
       <workItem from="1582495644237" duration="693000" />
       <workItem from="1583267114141" duration="4637000" />
       <workItem from="1583433137984" duration="1641000" />
+<<<<<<< Updated upstream
       <workItem from="1583862822048" duration="2096000" />
+=======
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
