@@ -1,0 +1,254 @@
+fileFormatVersion: 2
+guid: cb6f7613fac6cc845a24e751d5f80372
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: DeathsDoorWhitebox:group
+    100002: DeathsDoorWhitebox:group100
+    100004: DeathsDoorWhitebox:group15
+    100006: DeathsDoorWhitebox:group16
+    100008: DeathsDoorWhitebox:group17
+    100010: DeathsDoorWhitebox:group18
+    100012: DeathsDoorWhitebox:group19
+    100014: DeathsDoorWhitebox:group2
+    100016: DeathsDoorWhitebox:group20
+    100018: DeathsDoorWhitebox:group21
+    100020: DeathsDoorWhitebox:group22
+    100022: DeathsDoorWhitebox:group23
+    100024: DeathsDoorWhitebox:group24
+    100026: DeathsDoorWhitebox:group25
+    100028: DeathsDoorWhitebox:group26
+    100030: DeathsDoorWhitebox:group3
+    100032: DeathsDoorWhitebox:group85
+    100034: DeathsDoorWhitebox:pasted__group1
+    100036: DeathsDoorWhitebox:pasted__group15
+    100038: DeathsDoorWhitebox:pasted__group16
+    100040: DeathsDoorWhitebox:pasted__group17
+    100042: DeathsDoorWhitebox:pasted__group17 1
+    100044: DeathsDoorWhitebox:pasted__group18
+    100046: DeathsDoorWhitebox:pasted__group18 1
+    100048: DeathsDoorWhitebox:pasted__group18 2
+    100050: DeathsDoorWhitebox:pasted__group2
+    100052: DeathsDoorWhitebox:pasted__group21
+    100054: DeathsDoorWhitebox:pasted__group22
+    100056: DeathsDoorWhitebox:pasted__group25
+    100058: DeathsDoorWhitebox:pasted__group84
+    100060: DeathsDoorWhitebox:pasted__pasted__group1
+    100062: DeathsDoorWhitebox:pasted__pasted__group16
+    100064: DeathsDoorWhitebox:pasted__pasted__group16 1
+    100066: DeathsDoorWhitebox:pasted__pasted__group17
+    100068: DeathsDoorWhitebox:pasted__pasted__group17 1
+    100070: DeathsDoorWhitebox:pasted__pasted__group17 2
+    100072: DeathsDoorWhitebox:pasted__pasted__group17 3
+    100074: DeathsDoorWhitebox:pasted__pasted__group18
+    100076: DeathsDoorWhitebox:pasted__pasted__group79
+    100078: DeathsDoorWhitebox:pasted__pasted__pasted__group16
+    100080: DeathsDoorWhitebox:pasted__pasted__pasted__group16 1
+    100082: DeathsDoorWhitebox:pasted__pasted__pasted__group16 2
+    100084: DeathsDoorWhitebox:pasted__pasted__pasted__group16 3
+    100086: DeathsDoorWhitebox:pasted__pasted__pasted__group17
+    100088: DeathsDoorWhitebox:pasted__pasted__pasted__group28
+    100090: DeathsDoorWhitebox:pasted__pasted__pasted__pasted__group16
+    100092: DeathsDoorWhitebox:pasted__pasted__pasted__pasted__group27
+    100094: DeathsDoorWhitebox:pasted__polySurface6
+    100096: DeathsDoorWhitebox:pCube4
+    100098: DeathsDoorWhitebox:polySurface6
+    100100: DeathsDoorWhitebox:transform5
+    100102: group8
+    100104: //RootNode
+    100106: nurbsCube1
+    100108: pasted__group7
+    100110: pasted__pasted__group2
+    100112: pasted__pasted__group3
+    100114: pasted__pasted__group4
+    100116: pasted__pasted__group5
+    100118: pasted__pasted__group6
+    100120: pasted__pasted__pasted__group3
+    100122: pasted__pasted__pasted__group3 1
+    100124: pasted__pasted__pasted__group5
+    100126: pasted__pasted__pasted__pasted__group3
+    100128: pasted__pasted__pasted__pasted__pasted__pCube3
+    100130: pasted__pasted__pasted__pasted__pCube3
+    100132: pasted__pasted__pasted__pasted__pCube3 1
+    100134: pasted__pasted__pasted__pCube2
+    100136: pasted__pasted__pasted__pCube3
+    100138: pasted__pasted__pCube3
+    100140: pasted__pasted__pCube4
+    100142: pasted__pasted__transform1
+    100144: pasted__pasted__transform2
+    100146: pasted__pasted__transform3
+    100148: pasted__pasted__transform4
+    100150: pasted__pasted__transform5
+    100152: pasted__pasted__transform6
+    100154: pasted__pasted__transform7
+    100156: pPlane2
+    400000: DeathsDoorWhitebox:group
+    400002: DeathsDoorWhitebox:group100
+    400004: DeathsDoorWhitebox:group15
+    400006: DeathsDoorWhitebox:group16
+    400008: DeathsDoorWhitebox:group17
+    400010: DeathsDoorWhitebox:group18
+    400012: DeathsDoorWhitebox:group19
+    400014: DeathsDoorWhitebox:group2
+    400016: DeathsDoorWhitebox:group20
+    400018: DeathsDoorWhitebox:group21
+    400020: DeathsDoorWhitebox:group22
+    400022: DeathsDoorWhitebox:group23
+    400024: DeathsDoorWhitebox:group24
+    400026: DeathsDoorWhitebox:group25
+    400028: DeathsDoorWhitebox:group26
+    400030: DeathsDoorWhitebox:group3
+    400032: DeathsDoorWhitebox:group85
+    400034: DeathsDoorWhitebox:pasted__group1
+    400036: DeathsDoorWhitebox:pasted__group15
+    400038: DeathsDoorWhitebox:pasted__group16
+    400040: DeathsDoorWhitebox:pasted__group17
+    400042: DeathsDoorWhitebox:pasted__group17 1
+    400044: DeathsDoorWhitebox:pasted__group18
+    400046: DeathsDoorWhitebox:pasted__group18 1
+    400048: DeathsDoorWhitebox:pasted__group18 2
+    400050: DeathsDoorWhitebox:pasted__group2
+    400052: DeathsDoorWhitebox:pasted__group21
+    400054: DeathsDoorWhitebox:pasted__group22
+    400056: DeathsDoorWhitebox:pasted__group25
+    400058: DeathsDoorWhitebox:pasted__group84
+    400060: DeathsDoorWhitebox:pasted__pasted__group1
+    400062: DeathsDoorWhitebox:pasted__pasted__group16
+    400064: DeathsDoorWhitebox:pasted__pasted__group16 1
+    400066: DeathsDoorWhitebox:pasted__pasted__group17
+    400068: DeathsDoorWhitebox:pasted__pasted__group17 1
+    400070: DeathsDoorWhitebox:pasted__pasted__group17 2
+    400072: DeathsDoorWhitebox:pasted__pasted__group17 3
+    400074: DeathsDoorWhitebox:pasted__pasted__group18
+    400076: DeathsDoorWhitebox:pasted__pasted__group79
+    400078: DeathsDoorWhitebox:pasted__pasted__pasted__group16
+    400080: DeathsDoorWhitebox:pasted__pasted__pasted__group16 1
+    400082: DeathsDoorWhitebox:pasted__pasted__pasted__group16 2
+    400084: DeathsDoorWhitebox:pasted__pasted__pasted__group16 3
+    400086: DeathsDoorWhitebox:pasted__pasted__pasted__group17
+    400088: DeathsDoorWhitebox:pasted__pasted__pasted__group28
+    400090: DeathsDoorWhitebox:pasted__pasted__pasted__pasted__group16
+    400092: DeathsDoorWhitebox:pasted__pasted__pasted__pasted__group27
+    400094: DeathsDoorWhitebox:pasted__polySurface6
+    400096: DeathsDoorWhitebox:pCube4
+    400098: DeathsDoorWhitebox:polySurface6
+    400100: DeathsDoorWhitebox:transform5
+    400102: group8
+    400104: //RootNode
+    400106: nurbsCube1
+    400108: pasted__group7
+    400110: pasted__pasted__group2
+    400112: pasted__pasted__group3
+    400114: pasted__pasted__group4
+    400116: pasted__pasted__group5
+    400118: pasted__pasted__group6
+    400120: pasted__pasted__pasted__group3
+    400122: pasted__pasted__pasted__group3 1
+    400124: pasted__pasted__pasted__group5
+    400126: pasted__pasted__pasted__pasted__group3
+    400128: pasted__pasted__pasted__pasted__pasted__pCube3
+    400130: pasted__pasted__pasted__pasted__pCube3
+    400132: pasted__pasted__pasted__pasted__pCube3 1
+    400134: pasted__pasted__pasted__pCube2
+    400136: pasted__pasted__pasted__pCube3
+    400138: pasted__pasted__pCube3
+    400140: pasted__pasted__pCube4
+    400142: pasted__pasted__transform1
+    400144: pasted__pasted__transform2
+    400146: pasted__pasted__transform3
+    400148: pasted__pasted__transform4
+    400150: pasted__pasted__transform5
+    400152: pasted__pasted__transform6
+    400154: pasted__pasted__transform7
+    400156: pPlane2
+    2100000: lambert17
+    2100002: lambert18
+    2100004: lambert19
+    2100006: lambert22
+    2100008: lambert21
+    2300000: pPlane2
+    3300000: pPlane2
+    4300000: pPlane2
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
