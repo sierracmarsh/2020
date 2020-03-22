@@ -16,11 +16,11 @@ public class LoadLevel : MonoBehaviour {
 		
 	}
 
-	private void OnCollisionEnter(Collision Door)
+	void OnTriggerEnter(Collider other)
 	{
-		if (Door.gameObject.name == "Tim")
+		if (other.name == "Tim")
 		{
-			SceneManager.LoadScene("OutsideChurch");
+			SceneManager.LoadScene(3);
 		}
 	}
 }
