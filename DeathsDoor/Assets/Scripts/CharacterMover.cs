@@ -13,6 +13,7 @@ public class CharacterMover : MonoBehaviour
 	    
 		public float MoveSpeed = 10f;
 		public float Gravity = 4f;
+		public float Jump = 8f;
 	
 	
 	
@@ -26,6 +27,9 @@ public class CharacterMover : MonoBehaviour
 			position.x = MoveSpeed*Input.GetAxis("Horizontal");
 			position.y -= Gravity;
 			position.z = MoveSpeed*Input.GetAxis("Vertical");
+			if (Input.GetButton("Jump"))
+				position.y = Jump;
+
 			
 	
 			if (controller.isGrounded)
@@ -38,7 +42,7 @@ public class CharacterMover : MonoBehaviour
 				}
 			}
 		
-	        
+			MoveSpeed.y -= Gravity * Time.deltaTime;
 			controller.Move(position*Time.deltaTime);
 		}
 	}
