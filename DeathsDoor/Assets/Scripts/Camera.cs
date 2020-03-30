@@ -18,7 +18,7 @@ public class Camera : MonoBehaviour
 	{
 		transform.position = player.transform.position + offset;
 
-		if (Input.GetKeyDown(KeyCode.DownArrow))
+		if (Input.GetKeyDown(KeyCode.Backspace))
 		{
 			transform.RotateAround(transform.parent.position, Vector3.up, 180f);
 		}

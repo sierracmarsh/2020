@@ -7,42 +7,42 @@ using UnityEngine;
 public class CharacterMover : MonoBehaviour
 {
 	
-	    
-		private Vector3 position;
-		private CharacterController controller;
-	    
-		public float MoveSpeed = 10f;
-		public float Gravity = 4f;
-		public float Jump = 8f;
-	
-	
-	
-		void Start()
-		{
-			controller = GetComponent<CharacterController>();
-		}
-	    
-		void Update()
-		{
-			position.x = MoveSpeed*Input.GetAxis("Horizontal");
-			position.y -= Gravity;
-			position.z = MoveSpeed*Input.GetAxis("Vertical");
-			if (Input.GetButton("Jump"))
-				position.y = Jump;
 
-			
-	
-			if (controller.isGrounded)
-			{
-				position.y = 0;
+    
+	private Vector3 position;
+	private CharacterController controller;
 
-				if (position != Vector3.zero)
-				{
-					controller.transform.forward = position;
-				}
-			}
-		
-			MoveSpeed.y -= Gravity * Time.deltaTime;
-			controller.Move(position*Time.deltaTime);
-		}
+	public float moveSpeed = 10f;
+	public float gravity = 9.81f;
+	public float jumpSpeed = 30f;
+	public int jumpCount;
+	public int jumpCountMax = 2;
+    
+	// Start is called before the first frame update
+	void Start()
+	{
+		controller = GetComponent<CharacterController>();
 	}
+
+	// Update is called once per frame
+	void Update()
+	{
+		position.x = moveSpeed*Input.GetAxis("Horizontal");
+		position.z = moveSpeed*Input.GetAxis("Vertical");
+		position.y -= gravity;
+
+		if (controller.isGrounded)
+		{
+			position.y = 0;
+			jumpCount = 0;
+		}
+        
+		if (Input.GetButtonDown("Jump") && jumpCount < jumpCountMax)
+		{
+			position.y = jumpSpeed;
+			jumpCount++;
+		}
+        
+		controller.Move(position*Time.deltaTime);
+	}
+}

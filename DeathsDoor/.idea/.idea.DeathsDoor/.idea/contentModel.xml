@@ -10,6 +10,7 @@
           <e p="Camera.cs" t="Include" />
           <e p="CandyManager.cs" t="Include" />
           <e p="CharacterMover.cs" t="Include" />
+          <e p="ClickDoor.cs" t="Include" />
           <e p="CList.cs" t="Include" />
           <e p="Collectable.cs" t="Include" />
           <e p="EnemyController.cs" t="Include" />
