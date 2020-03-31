@@ -70,13 +70,15 @@
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\HomeOwnerStart.cs" />
     <Compile Include="Assets\Scripts\HomeownerTrigger.cs" />
-    <Compile Include="Assets\Scripts\LoadLevel.cs" />
+    <Compile Include="Assets\Scripts\MaintoOutsideChurch.cs" />
     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\PlayerManager.cs" />
     <Compile Include="Assets\Scripts\ReturnHome.cs" />
     <Compile Include="Assets\Scripts\StingListData.cs" />
     <Compile Include="Assets\Scripts\TextBehaviour.cs" />
+    <Compile Include="Assets\Scripts\ToTText.cs" />
     <Compile Include="Assets\Scripts\TriggerEventBehavior.cs" />
+    <Compile Include="Assets\Scripts\TutotialtoMain.cs" />
     <Compile Include="Assets\Scripts\UpdateVlue.cs" />
     <Compile Include="Assets\Scripts\VanishCandy.cs" />
     <Compile Include="Assets\Starfield Skybox\Demo\Script\LookCamera.cs" />
