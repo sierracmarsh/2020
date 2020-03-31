@@ -5,7 +5,7 @@ using UnityEngine;
 public class HomeownerTrigger : MonoBehaviour
 {
     public GameObject Homeowner;
-
+  
 
 
     void OnTriggerEnter(Collider other)
