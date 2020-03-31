@@ -21,6 +21,7 @@
           <e p="HomeOwnerStart.cs" t="Include" />
           <e p="HomeownerTrigger.cs" t="Include" />
           <e p="MaintoOutsideChurch.cs" t="Include" />
+          <e p="MaintoRail.cs" t="Include" />
           <e p="NewBehaviourScript.cs" t="Include" />
           <e p="OuttoIn.cs" t="Include" />
           <e p="PlayerManager.cs" t="Include" />
