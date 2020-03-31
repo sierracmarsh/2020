@@ -7,7 +7,10 @@ public class Lanterns : MonoBehaviour {
 	
 		private bool away = false;
 		private float awayspeed = 0;
+		public float gravity = 9.8f;
+		
 	
+
 
 		void OnTriggerEnter(Collider touch)
 		{
@@ -23,7 +26,7 @@ public class Lanterns : MonoBehaviour {
 			if (away)
 			{
 				awayspeed += Time.deltaTime;
-				transform.position = new Vector3 (transform.position.x, transform.position.y - awayspeed,
+				transform.position = new Vector3(transform.position.x, transform.position.y - awayspeed,
 					transform.position.z);
 				
 			}
