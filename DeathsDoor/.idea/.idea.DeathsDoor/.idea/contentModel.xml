@@ -7,6 +7,7 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="CandyCollect.cs" t="Include" />
           <e p="CandyManager.cs" t="Include" />
           <e p="CharacterMover.cs" t="Include" />
           <e p="ClickDoor.cs" t="Include" />
@@ -23,6 +24,7 @@
           <e p="NewBehaviourScript.cs" t="Include" />
           <e p="PlayerManager.cs" t="Include" />
           <e p="ReturnHome.cs" t="Include" />
+          <e p="ScoreSystem.cs" t="Include" />
           <e p="StingListData.cs" t="Include" />
           <e p="TextBehaviour.cs" t="Include" />
           <e p="ToTText.cs" t="Include" />

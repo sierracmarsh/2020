@@ -59,6 +59,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\CandyCollect.cs" />
     <Compile Include="Assets\Scripts\CandyManager.cs" />
     <Compile Include="Assets\Scripts\CharacterMover.cs" />
     <Compile Include="Assets\Scripts\ClickDoor.cs" />
@@ -75,6 +76,7 @@
     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\PlayerManager.cs" />
     <Compile Include="Assets\Scripts\ReturnHome.cs" />
+    <Compile Include="Assets\Scripts\ScoreSystem.cs" />
     <Compile Include="Assets\Scripts\StingListData.cs" />
     <Compile Include="Assets\Scripts\TextBehaviour.cs" />
     <Compile Include="Assets\Scripts\ToTText.cs" />
