@@ -24,6 +24,6 @@ public class ToTText : MonoBehaviour
 	{
 		yield return new WaitForSeconds(2);
 		Destroy(UObj);
-		
+		Destroy(gameObject);
 	}
 }

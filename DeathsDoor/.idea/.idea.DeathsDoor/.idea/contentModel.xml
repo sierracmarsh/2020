@@ -16,6 +16,7 @@
           <e p="FloatData.cs" t="Include" />
           <e p="FollowPlayer.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
+          <e p="HideTreat.cs" t="Include" />
           <e p="HomeOwnerStart.cs" t="Include" />
           <e p="HomeownerTrigger.cs" t="Include" />
           <e p="MaintoOutsideChurch.cs" t="Include" />
@@ -25,6 +26,7 @@
           <e p="StingListData.cs" t="Include" />
           <e p="TextBehaviour.cs" t="Include" />
           <e p="ToTText.cs" t="Include" />
+          <e p="TreatTrigger.cs" t="Include" />
           <e p="TriggerEventBehavior.cs" t="Include" />
           <e p="TutotialtoMain.cs" t="Include" />
           <e p="UpdateVlue.cs" t="Include" />

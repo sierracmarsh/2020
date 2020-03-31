@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\FloatData.cs" />
     <Compile Include="Assets\Scripts\FollowPlayer.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\HideTreat.cs" />
     <Compile Include="Assets\Scripts\HomeOwnerStart.cs" />
     <Compile Include="Assets\Scripts\HomeownerTrigger.cs" />
     <Compile Include="Assets\Scripts\MaintoOutsideChurch.cs" />
@@ -77,6 +78,7 @@
     <Compile Include="Assets\Scripts\StingListData.cs" />
     <Compile Include="Assets\Scripts\TextBehaviour.cs" />
     <Compile Include="Assets\Scripts\ToTText.cs" />
+    <Compile Include="Assets\Scripts\TreatTrigger.cs" />
     <Compile Include="Assets\Scripts\TriggerEventBehavior.cs" />
     <Compile Include="Assets\Scripts\TutotialtoMain.cs" />
     <Compile Include="Assets\Scripts\UpdateVlue.cs" />
