@@ -20,6 +20,7 @@
           <e p="HideTreat.cs" t="Include" />
           <e p="HomeOwnerStart.cs" t="Include" />
           <e p="HomeownerTrigger.cs" t="Include" />
+          <e p="Lanterns.cs" t="Include" />
           <e p="MaintoOutsideChurch.cs" t="Include" />
           <e p="MaintoRail.cs" t="Include" />
           <e p="NewBehaviourScript.cs" t="Include" />

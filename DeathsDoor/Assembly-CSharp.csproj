@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\HideTreat.cs" />
     <Compile Include="Assets\Scripts\HomeOwnerStart.cs" />
     <Compile Include="Assets\Scripts\HomeownerTrigger.cs" />
+    <Compile Include="Assets\Scripts\Lanterns.cs" />
     <Compile Include="Assets\Scripts\MaintoOutsideChurch.cs" />
     <Compile Include="Assets\Scripts\MaintoRail.cs" />
     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
