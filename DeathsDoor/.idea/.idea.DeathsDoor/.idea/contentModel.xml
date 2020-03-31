@@ -18,7 +18,7 @@
           <e p="GameManager.cs" t="Include" />
           <e p="HomeOwnerStart.cs" t="Include" />
           <e p="HomeownerTrigger.cs" t="Include" />
-          <e p="LoadLevel.cs" t="Include" />
+          <e p="MaintoOutsideChurch.cs" t="Include" />
           <e p="NewBehaviourScript.cs" t="Include" />
           <e p="PlayerManager.cs" t="Include" />
           <e p="ReturnHome.cs" t="Include" />
@@ -26,6 +26,7 @@
           <e p="TextBehaviour.cs" t="Include" />
           <e p="ToTText.cs" t="Include" />
           <e p="TriggerEventBehavior.cs" t="Include" />
+          <e p="TutotialtoMain.cs" t="Include" />
           <e p="UpdateVlue.cs" t="Include" />
           <e p="VanishCandy.cs" t="Include" />
         </e>

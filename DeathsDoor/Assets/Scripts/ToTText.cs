@@ -7,6 +7,7 @@ public class ToTText : MonoBehaviour
 	public GameObject UObj;
 	void Start () {
 		UObj.SetActive(false);
+		
 	}
 
 
@@ -23,6 +24,6 @@ public class ToTText : MonoBehaviour
 	{
 		yield return new WaitForSeconds(2);
 		Destroy(UObj);
-		Destroy(gameObject);
+		
 	}
 }
