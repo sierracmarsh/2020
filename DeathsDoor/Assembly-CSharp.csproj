@@ -76,6 +76,7 @@
     <Compile Include="Assets\Scripts\ReturnHome.cs" />
     <Compile Include="Assets\Scripts\StingListData.cs" />
     <Compile Include="Assets\Scripts\TextBehaviour.cs" />
+    <Compile Include="Assets\Scripts\ToTText.cs" />
     <Compile Include="Assets\Scripts\TriggerEventBehavior.cs" />
     <Compile Include="Assets\Scripts\UpdateVlue.cs" />
     <Compile Include="Assets\Scripts\VanishCandy.cs" />

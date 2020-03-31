@@ -24,6 +24,7 @@
           <e p="ReturnHome.cs" t="Include" />
           <e p="StingListData.cs" t="Include" />
           <e p="TextBehaviour.cs" t="Include" />
+          <e p="ToTText.cs" t="Include" />
           <e p="TriggerEventBehavior.cs" t="Include" />
           <e p="UpdateVlue.cs" t="Include" />
           <e p="VanishCandy.cs" t="Include" />
