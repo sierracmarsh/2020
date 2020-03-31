@@ -2,17 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ClickDoor : MonoBehaviour {
-
-	// Use this for initialization
+public class ClickDoor : MonoBehaviour
+{
+	public Camera view = Camera.main;
 	private void Update ()
 	{
 		RaycastHit hit;
-		Ray ray = UnityEngine.Camera.main.ScreenPointToRay(Input.mousePosition);
+		Ray ray = view.ScreenPointToRay(Input.mousePosition);
+
+		if (Physics.Raycast(ray, out hit, 100.0f))
+		{
+			if (hit.transform)
+			{
+				PrintName((hit.transform.gameObject));
+			}
+		}
 	}
 
-	private void PrintToT(GameObject door)
+	private void PrintName(GameObject door)
 	{
-		print("Trick or Treat");
+		print(door.name);
 	}
 }
