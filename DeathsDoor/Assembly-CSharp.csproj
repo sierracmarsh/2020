@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\HomeownerTrigger.cs" />
     <Compile Include="Assets\Scripts\MaintoOutsideChurch.cs" />
     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Scripts\OuttoIn.cs" />
     <Compile Include="Assets\Scripts\PlayerManager.cs" />
     <Compile Include="Assets\Scripts\ReturnHome.cs" />
     <Compile Include="Assets\Scripts\ScoreSystem.cs" />

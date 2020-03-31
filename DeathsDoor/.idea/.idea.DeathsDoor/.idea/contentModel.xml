@@ -22,6 +22,7 @@
           <e p="HomeownerTrigger.cs" t="Include" />
           <e p="MaintoOutsideChurch.cs" t="Include" />
           <e p="NewBehaviourScript.cs" t="Include" />
+          <e p="OuttoIn.cs" t="Include" />
           <e p="PlayerManager.cs" t="Include" />
           <e p="ReturnHome.cs" t="Include" />
           <e p="ScoreSystem.cs" t="Include" />
