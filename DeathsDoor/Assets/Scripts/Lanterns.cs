@@ -25,7 +25,7 @@ public class Lanterns : MonoBehaviour {
 		{
 			if (away)
 			{
-				awayspeed += Time.deltaTime;
+				awayspeed += Time.deltaTime/10;
 				transform.position = new Vector3(transform.position.x, transform.position.y - awayspeed,
 					transform.position.z);
 				

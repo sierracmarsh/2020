@@ -6,6 +6,30 @@
     <e p="C:\Users\dallon\Desktop\Kraken\Fall2019\Fall-2019\Spring2020\2020\DeathsDoor" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="CodeMonkey" t="Include">
+          <e p="MonoBehaviours" t="Include">
+            <e p="CameraFollow.cs" t="Include" />
+            <e p="CameraFollowSetup.cs" t="Include" />
+            <e p="ComponentActions.cs" t="Include" />
+            <e p="PositionRendererSorter.cs" t="Include" />
+          </e>
+          <e p="README.txt" t="Include" />
+          <e p="Utils" t="Include">
+            <e p="Button_Sprite.cs" t="Include" />
+            <e p="Button_UI.cs" t="Include" />
+            <e p="FunctionPeriodic.cs" t="Include" />
+            <e p="FunctionTimer.cs" t="Include" />
+            <e p="FunctionUpdater.cs" t="Include" />
+            <e p="UI_Bar.cs" t="Include" />
+            <e p="UI_BarMultiple.cs" t="Include" />
+            <e p="UI_Sprite.cs" t="Include" />
+            <e p="UI_TextComplex.cs" t="Include" />
+            <e p="UtilsClass.cs" t="Include" />
+            <e p="World_Bar.cs" t="Include" />
+            <e p="World_Mesh.cs" t="Include" />
+            <e p="World_Sprite.cs" t="Include" />
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="CandyCollect.cs" t="Include" />
           <e p="CandyManager.cs" t="Include" />
@@ -13,6 +37,7 @@
           <e p="ClickDoor.cs" t="Include" />
           <e p="CList.cs" t="Include" />
           <e p="Collectable.cs" t="Include" />
+          <e p="EnemyAi.cs" t="Include" />
           <e p="EnemyController.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="FollowPlayer.cs" t="Include" />
@@ -21,11 +46,18 @@
           <e p="HomeOwnerStart.cs" t="Include" />
           <e p="HomeownerTrigger.cs" t="Include" />
           <e p="Lanterns.cs" t="Include" />
-          <e p="MaintoOutsideChurch.cs" t="Include" />
-          <e p="MaintoRail.cs" t="Include" />
+          <e p="LoadScene" t="Include">
+            <e p="ChurchtoOutside.cs" t="Include" />
+            <e p="MaintoOutsideChurch.cs" t="Include" />
+            <e p="MaintoRail.cs" t="Include" />
+            <e p="Maintotutotutorial.cs" t="Include" />
+            <e p="OUTSIDETOMAIN.cs" t="Include" />
+            <e p="OuttoIn.cs" t="Include" />
+            <e p="TutotialtoMain.cs" t="Include" />
+          </e>
           <e p="NewBehaviourScript.cs" t="Include" />
-          <e p="OuttoIn.cs" t="Include" />
           <e p="PlayerManager.cs" t="Include" />
+          <e p="RailtoMai.cs" t="Include" />
           <e p="ReturnHome.cs" t="Include" />
           <e p="ScoreSystem.cs" t="Include" />
           <e p="StingListData.cs" t="Include" />
@@ -33,7 +65,6 @@
           <e p="ToTText.cs" t="Include" />
           <e p="TreatTrigger.cs" t="Include" />
           <e p="TriggerEventBehavior.cs" t="Include" />
-          <e p="TutotialtoMain.cs" t="Include" />
           <e p="UpdateVlue.cs" t="Include" />
           <e p="VanishCandy.cs" t="Include" />
         </e>

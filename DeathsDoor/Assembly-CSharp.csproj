@@ -59,12 +59,30 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CodeMonkey\MonoBehaviours\CameraFollow.cs" />
+    <Compile Include="Assets\CodeMonkey\MonoBehaviours\CameraFollowSetup.cs" />
+    <Compile Include="Assets\CodeMonkey\MonoBehaviours\ComponentActions.cs" />
+    <Compile Include="Assets\CodeMonkey\MonoBehaviours\PositionRendererSorter.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\Button_Sprite.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\Button_UI.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\FunctionPeriodic.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\FunctionTimer.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\FunctionUpdater.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\UI_Bar.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\UI_BarMultiple.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\UI_Sprite.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\UI_TextComplex.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\UtilsClass.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\World_Bar.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\World_Mesh.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\World_Sprite.cs" />
     <Compile Include="Assets\Scripts\CandyCollect.cs" />
     <Compile Include="Assets\Scripts\CandyManager.cs" />
     <Compile Include="Assets\Scripts\CharacterMover.cs" />
     <Compile Include="Assets\Scripts\ClickDoor.cs" />
     <Compile Include="Assets\Scripts\CList.cs" />
     <Compile Include="Assets\Scripts\Collectable.cs" />
+    <Compile Include="Assets\Scripts\EnemyAi.cs" />
     <Compile Include="Assets\Scripts\EnemyController.cs" />
     <Compile Include="Assets\Scripts\FloatData.cs" />
     <Compile Include="Assets\Scripts\FollowPlayer.cs" />
@@ -73,11 +91,16 @@
     <Compile Include="Assets\Scripts\HomeOwnerStart.cs" />
     <Compile Include="Assets\Scripts\HomeownerTrigger.cs" />
     <Compile Include="Assets\Scripts\Lanterns.cs" />
-    <Compile Include="Assets\Scripts\MaintoOutsideChurch.cs" />
-    <Compile Include="Assets\Scripts\MaintoRail.cs" />
+    <Compile Include="Assets\Scripts\LoadScene\ChurchtoOutside.cs" />
+    <Compile Include="Assets\Scripts\LoadScene\MaintoOutsideChurch.cs" />
+    <Compile Include="Assets\Scripts\LoadScene\MaintoRail.cs" />
+    <Compile Include="Assets\Scripts\LoadScene\Maintotutotutorial.cs" />
+    <Compile Include="Assets\Scripts\LoadScene\OUTSIDETOMAIN.cs" />
+    <Compile Include="Assets\Scripts\LoadScene\OuttoIn.cs" />
+    <Compile Include="Assets\Scripts\LoadScene\TutotialtoMain.cs" />
     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
-    <Compile Include="Assets\Scripts\OuttoIn.cs" />
     <Compile Include="Assets\Scripts\PlayerManager.cs" />
+    <Compile Include="Assets\Scripts\RailtoMai.cs" />
     <Compile Include="Assets\Scripts\ReturnHome.cs" />
     <Compile Include="Assets\Scripts\ScoreSystem.cs" />
     <Compile Include="Assets\Scripts\StingListData.cs" />
@@ -85,10 +108,10 @@
     <Compile Include="Assets\Scripts\ToTText.cs" />
     <Compile Include="Assets\Scripts\TreatTrigger.cs" />
     <Compile Include="Assets\Scripts\TriggerEventBehavior.cs" />
-    <Compile Include="Assets\Scripts\TutotialtoMain.cs" />
     <Compile Include="Assets\Scripts\UpdateVlue.cs" />
     <Compile Include="Assets\Scripts\VanishCandy.cs" />
     <Compile Include="Assets\Starfield Skybox\Demo\Script\LookCamera.cs" />
+    <None Include="Assets\CodeMonkey\README.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/dallon/Desktop/Kraken/Fall2019/Fall-2019/Spring2020/2020/DeathsDoor/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
