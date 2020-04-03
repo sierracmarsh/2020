@@ -1,23 +1,28 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using CodeMonkey.Utils;
+using UnityEngine.AI;
 
 public class EnemyAi : MonoBehaviour
 {
-	private Vector3 StartP;
+	private NavMeshAgent Enemy;
+	public GameObject Player;
+	public float EnemyDistance = 4.0f;
 
-	// Use this for initialization
-	private void Start () {
-		StartP = transform.position
-	}
-
-	private Vector3 GetP()
+	 void Start()
 	{
-		return StartP + UtilsClass.GetRandomDir() * Random.Range(10f, 70f);
+		Enemy = GetComponent<NavMeshAgent>();
 	}
-	// Update is called once per frame
-	void Update () {
-		
+
+	 void Update()
+	{
+		float distance = Vector3.Distance(transform.position, Player.transform.position);
+		if (distance < EnemyDistance)
+		{
+			Vector3 towardPlayer = transform.position - Player.transform.position;
+			Vector3 nextP = transform.position - towardPlayer;
+			Enemy.SetDestination(nextP);
+		}
 	}
 }
