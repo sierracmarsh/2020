@@ -6,10 +6,10 @@ using System.Collections;
 
 public class KeyGate : MonoBehaviour {
     
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider collider)
     
     {
-        if (other.gameObject.name == "Tim" && GameVariables.keyCount>0)
+        if (collider.gameObject.name == "Tim" && GameVariables.keyCount>0)
         {
             GameVariables.keyCount--;
             Destroy(gameObject);

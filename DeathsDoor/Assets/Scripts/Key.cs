@@ -9,7 +9,7 @@ public class Key : MonoBehaviour {
     {
         if (collide.gameObject.name == "Tim")
         {
-            GameVariables.keyCount += 4;
+            GameVariables.keyCount +=2;
             Destroy(gameObject);
         }
     }
