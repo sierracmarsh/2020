@@ -18,9 +18,12 @@
           <e p="FloatData.cs" t="Include" />
           <e p="FollowPlayer.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
+          <e p="GameVariables.cs" t="Include" />
           <e p="HideTreat.cs" t="Include" />
           <e p="HomeOwnerStart.cs" t="Include" />
           <e p="HomeownerTrigger.cs" t="Include" />
+          <e p="Key.cs" t="Include" />
+          <e p="KeyGate.cs" t="Include" />
           <e p="Lanterns.cs" t="Include" />
           <e p="LoadScene" t="Include">
             <e p="ChurchtoOutside.cs" t="Include" />

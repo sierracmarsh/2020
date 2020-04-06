@@ -70,9 +70,12 @@
     <Compile Include="Assets\Scripts\FloatData.cs" />
     <Compile Include="Assets\Scripts\FollowPlayer.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\GameVariables.cs" />
     <Compile Include="Assets\Scripts\HideTreat.cs" />
     <Compile Include="Assets\Scripts\HomeOwnerStart.cs" />
     <Compile Include="Assets\Scripts\HomeownerTrigger.cs" />
+    <Compile Include="Assets\Scripts\Key.cs" />
+    <Compile Include="Assets\Scripts\KeyGate.cs" />
     <Compile Include="Assets\Scripts\Lanterns.cs" />
     <Compile Include="Assets\Scripts\LoadScene\ChurchtoOutside.cs" />
     <Compile Include="Assets\Scripts\LoadScene\MaintoOutsideChurch.cs" />
