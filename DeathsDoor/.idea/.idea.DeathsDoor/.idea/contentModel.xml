@@ -13,6 +13,7 @@
           <e p="ClickDoor.cs" t="Include" />
           <e p="CList.cs" t="Include" />
           <e p="Collectable.cs" t="Include" />
+          <e p="Destory Pannel.cs" t="Include" />
           <e p="Dialouge.cs" t="Include" />
           <e p="EnemyAi.cs" t="Include" />
           <e p="EnemyController.cs" t="Include" />

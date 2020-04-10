@@ -774,8 +774,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9e511541c1736149827452496509b85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Enemy: {fileID: 0}
   Player: {fileID: 143961849}
-  EnemyDistance: 10
+  EnemyDistance: 20
 --- !u!54 &393687055
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2208,8 +2209,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9e511541c1736149827452496509b85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Enemy: {fileID: 0}
   Player: {fileID: 143961849}
-  EnemyDistance: 4
+  EnemyDistance: 20
 --- !u!54 &1408571642
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2501,9 +2503,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Red Enemy will kick you back to start
-
-'
+  m_Text: "Red Reaper wants you to go back and wait for death to collect you. \n"
 --- !u!222 &1453309846
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2560,11 +2560,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Green Enemy is a broken POS.
-
-    He''s supposed to steal your candy
-
-    He''s under construction. '
+  m_Text: Uh Oh! Green Reaper looks like he wants your candy!
 --- !u!222 &1453937308
 CanvasRenderer:
   m_ObjectHideFlags: 0

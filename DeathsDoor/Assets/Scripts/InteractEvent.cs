@@ -10,13 +10,16 @@ public class InteractEvent : MonoBehaviour
 	public GameObject Player;
 	public GameObject InteractObj;
 	public UnityEvent OnInteractEvent;
+	
 //click on Enemy
 	public void OnMouseDown()
 	{
-		print("I'm Working");
+		
 		if (Player.GetComponent<Interact>().CanInteract)
 		{
 			OnInteractEvent.Invoke();
 		}
+		
+
 	}
 }

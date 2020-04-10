@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\ClickDoor.cs" />
     <Compile Include="Assets\Scripts\CList.cs" />
     <Compile Include="Assets\Scripts\Collectable.cs" />
+    <Compile Include="Assets\Scripts\Destory Pannel.cs" />
     <Compile Include="Assets\Scripts\Dialouge.cs" />
     <Compile Include="Assets\Scripts\EnemyAi.cs" />
     <Compile Include="Assets\Scripts\EnemyController.cs" />
@@ -90,7 +91,6 @@
     <Compile Include="Assets\Scripts\LoadScene\OUTSIDETOMAIN.cs" />
     <Compile Include="Assets\Scripts\LoadScene\OuttoIn.cs" />
     <Compile Include="Assets\Scripts\LoadScene\TutotialtoMain.cs" />
-    <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\PlayerManager.cs" />
     <Compile Include="Assets\Scripts\RailtoMai.cs" />
     <Compile Include="Assets\Scripts\ReturnHome.cs" />
