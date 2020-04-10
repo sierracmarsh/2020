@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 public static class GameVariables
+
 {
 
 	public static int keyCount;

@@ -1,18 +1,36 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.Audio.Google;
 using UnityEngine.UI;
 
 public class ScoreSystem : MonoBehaviour
 {
     public GameObject CandyCount;
-    public static int count;
- 
+    public IntData count;
+
+    public void LoseCandy()
+    {
+        if (count.Value > 0)
+        {
+            count.Value -= 1;
+        }
+    }
+
+    public void LoseAllCandy()
+    {
+        count.Value = 0;
+    }
+
 
     void Update()
     {
        
-        CandyCount.GetComponent<Text>().text = "Candy Count: " + count;
-    }
+        CandyCount.GetComponent<Text>().text = "Candy Count: " + count.Value;
+   }
+
+   
+
 
 }

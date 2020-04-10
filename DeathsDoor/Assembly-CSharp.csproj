@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\ClickDoor.cs" />
     <Compile Include="Assets\Scripts\CList.cs" />
     <Compile Include="Assets\Scripts\Collectable.cs" />
+    <Compile Include="Assets\Scripts\Dialouge.cs" />
     <Compile Include="Assets\Scripts\EnemyAi.cs" />
     <Compile Include="Assets\Scripts\EnemyController.cs" />
     <Compile Include="Assets\Scripts\FloatData.cs" />
@@ -75,6 +76,10 @@
     <Compile Include="Assets\Scripts\HideTreat.cs" />
     <Compile Include="Assets\Scripts\HomeOwnerStart.cs" />
     <Compile Include="Assets\Scripts\HomeownerTrigger.cs" />
+    <Compile Include="Assets\Scripts\IntData.cs" />
+    <Compile Include="Assets\Scripts\Interact.cs" />
+    <Compile Include="Assets\Scripts\InteractEvent.cs" />
+    <Compile Include="Assets\Scripts\InventoryMenu.cs" />
     <Compile Include="Assets\Scripts\Key.cs" />
     <Compile Include="Assets\Scripts\KeyGate.cs" />
     <Compile Include="Assets\Scripts\Lanterns.cs" />
@@ -90,6 +95,7 @@
     <Compile Include="Assets\Scripts\RailtoMai.cs" />
     <Compile Include="Assets\Scripts\ReturnHome.cs" />
     <Compile Include="Assets\Scripts\ScoreSystem.cs" />
+    <Compile Include="Assets\Scripts\StealCandy.cs" />
     <Compile Include="Assets\Scripts\StingListData.cs" />
     <Compile Include="Assets\Scripts\TextBehaviour.cs" />
     <Compile Include="Assets\Scripts\ToTText.cs" />

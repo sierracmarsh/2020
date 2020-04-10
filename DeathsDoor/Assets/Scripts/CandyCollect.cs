@@ -6,22 +6,16 @@ using UnityEngine;
 public class CandyCollect : MonoBehaviour
 {
 	public AudioSource Wrapper;
+	
 
 	private void OnTriggerEnter(Collider other)
 	{
 		Wrapper.Play();
-		ScoreSystem.count += 1;
+		GameObject.Find("ScoreSystem").GetComponent<ScoreSystem>().count.Value += 1; 
+	
 		Destroy(gameObject);
 
 	}
 
-	// Use this for initialization
-	void Start () {
-		
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-}
+

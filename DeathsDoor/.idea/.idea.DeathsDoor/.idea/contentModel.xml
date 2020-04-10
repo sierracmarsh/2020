@@ -13,6 +13,7 @@
           <e p="ClickDoor.cs" t="Include" />
           <e p="CList.cs" t="Include" />
           <e p="Collectable.cs" t="Include" />
+          <e p="Dialouge.cs" t="Include" />
           <e p="EnemyAi.cs" t="Include" />
           <e p="EnemyController.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
@@ -23,6 +24,10 @@
           <e p="HideTreat.cs" t="Include" />
           <e p="HomeOwnerStart.cs" t="Include" />
           <e p="HomeownerTrigger.cs" t="Include" />
+          <e p="IntData.cs" t="Include" />
+          <e p="Interact.cs" t="Include" />
+          <e p="InteractEvent.cs" t="Include" />
+          <e p="InventoryMenu.cs" t="Include" />
           <e p="Key.cs" t="Include" />
           <e p="KeyGate.cs" t="Include" />
           <e p="Lanterns.cs" t="Include" />
@@ -40,6 +45,7 @@
           <e p="RailtoMai.cs" t="Include" />
           <e p="ReturnHome.cs" t="Include" />
           <e p="ScoreSystem.cs" t="Include" />
+          <e p="StealCandy.cs" t="Include" />
           <e p="StingListData.cs" t="Include" />
           <e p="TextBehaviour.cs" t="Include" />
           <e p="ToTText.cs" t="Include" />

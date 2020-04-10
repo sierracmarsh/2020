@@ -6,7 +6,7 @@ using UnityEngine.AI;
 
 public class EnemyAi : MonoBehaviour
 {
-	private NavMeshAgent Enemy;
+	public NavMeshAgent Enemy;
 	public GameObject Player;
 	public float EnemyDistance = 4.0f;
 
@@ -17,9 +17,11 @@ public class EnemyAi : MonoBehaviour
 
 	 void Update()
 	{
+		
 		float distance = Vector3.Distance(transform.position, Player.transform.position);
 		if (distance < EnemyDistance)
 		{
+			
 			Vector3 towardPlayer = transform.position - Player.transform.position;
 			Vector3 nextP = transform.position - towardPlayer;
 			Enemy.SetDestination(nextP);
