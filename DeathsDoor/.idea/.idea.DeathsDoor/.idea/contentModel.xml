@@ -41,7 +41,6 @@
             <e p="OuttoIn.cs" t="Include" />
             <e p="TutotialtoMain.cs" t="Include" />
           </e>
-          <e p="NewBehaviourScript.cs" t="Include" />
           <e p="PlayerManager.cs" t="Include" />
           <e p="RailtoMai.cs" t="Include" />
           <e p="ReturnHome.cs" t="Include" />
