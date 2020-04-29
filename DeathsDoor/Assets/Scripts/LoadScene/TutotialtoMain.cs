@@ -20,7 +20,7 @@ public class TutotialtoMain : MonoBehaviour {
 	{
 		if (other.name == "Tim")
 		{
-			SceneManager.LoadScene(1);
+			SceneManager.LoadScene(2);
 		}
 	}
 }
