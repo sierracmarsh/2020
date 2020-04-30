@@ -9,12 +9,15 @@
         <e p="Scripts" t="Include">
           <e p="CandyCollect.cs" t="Include" />
           <e p="CandyManager.cs" t="Include" />
+          <e p="ChangeScene.cs" t="Include" />
           <e p="CharacterMover.cs" t="Include" />
           <e p="ClickDoor.cs" t="Include" />
           <e p="CList.cs" t="Include" />
           <e p="Collectable.cs" t="Include" />
+          <e p="DeathsDoorGate.cs" t="Include" />
           <e p="Destory Pannel.cs" t="Include" />
           <e p="Dialouge.cs" t="Include" />
+          <e p="End.cs" t="Include" />
           <e p="EnemyAi.cs" t="Include" />
           <e p="EnemyController.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
@@ -34,6 +37,7 @@
           <e p="Lanterns.cs" t="Include" />
           <e p="LoadScene" t="Include">
             <e p="ChurchtoOutside.cs" t="Include" />
+            <e p="MaintoDeath.cs" t="Include" />
             <e p="MaintoOutsideChurch.cs" t="Include" />
             <e p="MaintoRail.cs" t="Include" />
             <e p="Maintotutotutorial.cs" t="Include" />
@@ -41,15 +45,19 @@
             <e p="OuttoIn.cs" t="Include" />
             <e p="TutotialtoMain.cs" t="Include" />
           </e>
+          <e p="Main2.cs" t="Include" />
           <e p="Menu.cs" t="Include" />
+          <e p="orextl.cs" t="Include" />
           <e p="PlayerManager.cs" t="Include" />
           <e p="RailtoMai.cs" t="Include" />
           <e p="ReturnHome.cs" t="Include" />
+          <e p="SceneController.cs" t="Include" />
           <e p="ScoreSystem.cs" t="Include" />
           <e p="StealCandy.cs" t="Include" />
           <e p="StingListData.cs" t="Include" />
           <e p="TextBehaviour.cs" t="Include" />
           <e p="ToTText.cs" t="Include" />
+          <e p="TreatKey.cs" t="Include" />
           <e p="TreatTrigger.cs" t="Include" />
           <e p="TriggerEventBehavior.cs" t="Include" />
           <e p="UpdateVlue.cs" t="Include" />

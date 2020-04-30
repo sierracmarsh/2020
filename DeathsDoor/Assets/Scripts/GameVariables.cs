@@ -6,4 +6,5 @@ public static class GameVariables
 {
 
 	public static int keyCount;
+	public static int Treatcount;
 }

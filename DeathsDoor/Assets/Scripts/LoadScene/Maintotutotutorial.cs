@@ -9,7 +9,7 @@ public class Maintotutotutorial : MonoBehaviour {
 	{
 		if (other.name == "Tim")
 		{
-			SceneManager.LoadScene(0);
+			SceneManager.LoadScene(1);
 		}
 	}
 }

@@ -11,6 +11,7 @@ public class Key : MonoBehaviour {
         {
             GameVariables.keyCount +=2;
             Destroy(gameObject);
+          
         }
     }
 }

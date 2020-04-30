@@ -17,16 +17,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scene/MainLevel.unity
     guid: 4b592af909a0b3a4fad70f97faff62ac
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scene/OutsideChurch.unity
     guid: 44057ac6e62990145b5c9c4bfcd198c7
   - enabled: 1
     path: Assets/Scene/InsideChurch.unity
     guid: c1889b114b0fbec479641c614614d14e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scene/RailroadScene.unity
     guid: 0a94a8777a5985440bb9f4d8ac22bcbc
   - enabled: 0
     path: Assets/Scene/With Capsule.unity
     guid: 5fe908c674fd3e646a30a3a3d6143bdb
+  - enabled: 1
+    path: Assets/Scene/End.unity
+    guid: 8c755737de89a2e419f2bf69d313c518
   m_configObjects: {}

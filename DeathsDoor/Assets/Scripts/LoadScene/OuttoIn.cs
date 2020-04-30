@@ -8,7 +8,7 @@ public class OuttoIn : MonoBehaviour {
 	{
 		if (other.name == "Tim")
 		{
-			SceneManager.LoadScene(3);
+			SceneManager.LoadScene(4);
 		}
 	}
 }

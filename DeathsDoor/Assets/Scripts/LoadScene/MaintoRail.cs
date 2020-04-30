@@ -8,7 +8,7 @@ public class MaintoRail : MonoBehaviour {
 	{
 		if (other.name == "Tim")
 		{
-			SceneManager.LoadScene(4);
+			SceneManager.LoadScene(5);
 		}
 	}
 }
