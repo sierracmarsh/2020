@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class Menu : MonoBehaviour {
     public void Playgame()
     {
-        SceneManager.LoadScene("TutorialLevel");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void QuitGame()

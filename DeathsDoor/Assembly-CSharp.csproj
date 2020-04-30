@@ -59,7 +59,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Menu.cs" />
     <Compile Include="Assets\Scripts\CandyCollect.cs" />
     <Compile Include="Assets\Scripts\CandyManager.cs" />
     <Compile Include="Assets\Scripts\CharacterMover.cs" />
@@ -92,6 +91,7 @@
     <Compile Include="Assets\Scripts\LoadScene\OUTSIDETOMAIN.cs" />
     <Compile Include="Assets\Scripts\LoadScene\OuttoIn.cs" />
     <Compile Include="Assets\Scripts\LoadScene\TutotialtoMain.cs" />
+    <Compile Include="Assets\Scripts\Menu.cs" />
     <Compile Include="Assets\Scripts\PlayerManager.cs" />
     <Compile Include="Assets\Scripts\RailtoMai.cs" />
     <Compile Include="Assets\Scripts\ReturnHome.cs" />

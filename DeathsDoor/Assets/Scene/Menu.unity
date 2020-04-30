@@ -256,9 +256,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 429393728}
-        m_MethodName: set_dopplerLevel
-        m_Mode: 4
+      - m_Target: {fileID: 1698674831}
+        m_MethodName: Playgame
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
